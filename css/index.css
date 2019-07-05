@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body{
+    background :#f2f6f5;
+    color: #121b74; 
+    margin-top: 0px;   
+}
+
+header{
+    border-bottom: 2px solid #293462;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    padding: 8px;
+    top: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    position: fixed;
+    
+    
+}
+
+article{
+    display: inline-block;
+    border-radius: 20px;
+    width: 350px;
+    margin: 8px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+article:hover{
+    /* display: inline-block;
+    border-radius: 20px;
+    width: 350px;
+    margin: 8px;
+    border: 2px solid #000; */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+    background: #e8e8e8;
+}
+.myInput{
+    margin-top:100px;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px; 
+}
+.myInput:hover{
+    margin-top:100px;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px; 
+}
+.myInput:focus{
+    background: #fff3b1;
+    font-size: 20px;
+    margin-top:100px;
+    width: 60%;
+    height: 30px;
+    
+    border-radius: 10px; 
+}
+#main-content{
+    margin-top: 10px;
+}
+#main-content div{
+    height: 350px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+h3{
+    margin-left: 8px;
+}
+p{
+    margin: 8px;
+}
